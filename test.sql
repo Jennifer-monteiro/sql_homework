@@ -48,8 +48,8 @@ GROUP BY staff.staff_id;
 --ANSWER: Mike Hillyer with 8040 rentals 
 
 --6. How many movies of each rating are there?
-SELECT rating, COUNT(film_id)
-FROM film;
+SELECT rating, COUNT(film_id) 
+FROM film
 GROUP BY rating;
 
 -- ANSWER: NC-17: 209, G: 178, PG-13:223, PG 194, R: 196
